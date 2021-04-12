@@ -1,14 +1,14 @@
 import './App.css';
 import Header from './components/Header';
+import ProductsTable from './components/ProductsTable';
+import ShoppingCart from './components/ShoppingCart';
 
 function App() {
   return (
     <div className="container">
       <Header />
-      <div className="contentContainer">
-        <h1>Products</h1>
-        <h1>Shopping Cart</h1>
-      </div>
+      <ProductsTable />
+      <ShoppingCart />
     </div>
   );
 }
