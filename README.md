@@ -1,3 +1,8 @@
+# From the author
+
+Small sport store UI built with React to showcase rendering and state management.
+Uses JS-object as a representation of JSON-payload from the API.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
