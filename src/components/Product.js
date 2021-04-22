@@ -1,5 +1,4 @@
 import React from 'react';
-import productImage from '../images/sneaker1.svg';
 class Product extends React.Component {
 
     constructor(props) {
@@ -20,7 +19,7 @@ class Product extends React.Component {
             </span>;
 
         const addButton = <button className="green-button" onClick={this.onAddButtonClick}>Add</button>;
-        const disabledButton = <button className="disabled-button" onClick={this.onAddButtonClick} disabled>Add</button>;
+        const disabledButton = <button className="disabled-button" disabled onClick={this.onAddButtonClick} disabled>Add</button>;
   
         return (
             <tr>

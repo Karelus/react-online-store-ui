@@ -48,14 +48,14 @@ class FilterableProductsTable extends React.Component {
 
     renderCartButton() {
       if (this.state.totalAmount > 0) {
-        return <button onClick={this.handleEmptyButtonClick}>Empty Cart</button>;
+        return <button className="red-button" onClick={this.handleEmptyButtonClick}>Empty Cart</button>;
       }
       return null;
     }
   
     render() {
       return (
-        <div>
+        <div className="productContainer">
           <SearchBar
             filterText={this.state.filterText}
             inStockOnly={this.state.inStockOnly}
@@ -68,7 +68,7 @@ class FilterableProductsTable extends React.Component {
             inStockOnly={this.state.inStockOnly}
             onAddButtonClick={this.handleAddButtonClick}
           />
-          <p>{this.state.totalAmount} €</p>
+          <p>Total amount: {this.state.totalAmount} €</p>
           { this.renderCartButton() }     
         </div>
       );

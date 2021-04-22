@@ -35,15 +35,15 @@ import Product from './Product';
       });
   
       return (
-        <div>
-          <table>
+        <div className="productTable">
+          <table className="table">
             <thead>
               <tr>
                 <th>Name</th>
                 <th>Price</th>
               </tr>
             </thead>
-            <tbody>{rows}</tbody>
+            <tbody className="tableBody">{rows}</tbody>
           </table> 
         </div>
       );
