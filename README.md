@@ -1,6 +1,6 @@
 # From the author
 
-Small sport store UI built with React to showcase rendering and state management.
+Small filterable sportstore UI built with React to showcase rendering and state management.
 Uses JS-object as a representation of JSON-payload from the API.
 
 ![image](https://user-images.githubusercontent.com/49402752/116085614-ab61e180-a6a7-11eb-9fd9-0131c42e0512.png)
