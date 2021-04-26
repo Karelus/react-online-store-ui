@@ -3,6 +3,8 @@
 Small sport store UI built with React to showcase rendering and state management.
 Uses JS-object as a representation of JSON-payload from the API.
 
+![image](https://user-images.githubusercontent.com/49402752/116085451-81102400-a6a7-11eb-8973-acc0fb2e51a6.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
