@@ -13,11 +13,10 @@ class Header extends React.Component {
 
         return <div style={headerstyle}>
             <div className="headerText">
-                <h2>Sporting Goods</h2>
+                <h2>E-Commerce</h2>
             </div>
         </div>
     }  
 }
 
 export default Header;
-

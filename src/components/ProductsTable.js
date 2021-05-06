@@ -51,4 +51,3 @@ import Product from './Product';
   }
   
 export default ProductsTable;
-

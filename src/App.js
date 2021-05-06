@@ -8,8 +8,8 @@ function App() {
     { price: 49.99, stocked: true, name: 'Sneakers'},
     { price: 9.99, stocked: true, name: 'Baseball Cap'},
     { price: 29.99, stocked: false, name: 'Hoodie'},
-    { price: 69.99, stocked: true, name: 'Joggers'},
-    { price: 79.99, stocked: false, name: 'Volleyball'},
+    { price: 69.99, stocked: true, name: 'Training Joggers'},
+    { price: 19.99, stocked: false, name: 'Training Shirt'},
     { price: 29.99, stocked: true, name: 'Sweatpants'},
     { price: 25.99, stocked: true, name: 'Training Shorts'}
   ];

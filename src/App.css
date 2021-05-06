@@ -95,3 +95,7 @@ form {
   display: flex;
   flex-direction: column;
 }
+
+th {
+  text-align: start;
+}

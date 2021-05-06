@@ -30,7 +30,6 @@ class FilterableProductsTable extends React.Component {
     }
 
     handleAddButtonClick(price) {
-
       let totalAmount = parseFloat(this.state.totalAmount);
       totalAmount += price;
       totalAmount = Math.round(totalAmount * 100) / 100
